@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Luan Monteiro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #121212, #1e2a47);
+            color: white;
+            text-align: center;
+            line-height: 1.6;
+            transition: background 0.5s ease;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1c2b45, #64ffda);
+            padding: 80px 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+            margin-bottom: 40px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            color: #fff;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.3em;
+            color: #a8b2d1;
+            font-weight: 400;
+        }
+
+        section {
+            margin: 40px auto;
+            padding: 40px;
+            width: 80%;
+            max-width: 1200px;
+            background: #1e2a47;
+            border-radius: 10px;
+            box-shadow: 2px 2px 20px rgba(100, 255, 218, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: translateY(-10px);
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            color: #64ffda;
+            margin-bottom: 20px;
+        }
+
+        section p, section ul {
+            font-size: 1.1em;
+            color: #a8b2d1;
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            list-style: none;
+            padding-left: 30px;
+        }
+
+        section ul li {
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        section ul li:before {
+            content: "•";
+            color: #64ffda;
+            font-size: 1.5em;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .project {
+            background: #233554;
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: left;
+            overflow: hidden;
+        }
+
+        .project:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 10px 30px rgba(100, 255, 218, 0.8);
+        }
+
+        .project h3 {
+            font-size: 1.8em;
+            color: #64ffda;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #a8b2d1;
+        }
+
+        .project a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #64ffda;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .project a:hover {
+            color: #ffffff;
+        }
+
+        footer {
+            background: #1c2b45;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 1.1em;
+            color: #a8b2d1;
+        }
+
+        footer a {
+            color: #64ffda;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        .contact-email, .linkedin, .github {
+            background: #233554;
+            padding: 20px;
+            border-radius: 10px;
+            width: 280px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            margin: 10px auto;
+        }
+
+        .contact-email:hover, .linkedin:hover, .github:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 4px 20px rgba(100, 255, 218, 0.8);
+        }
+
+        .contact-email a,
+        .linkedin a,
+        .github a {
+            color: #e6d9dd;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .contact-email a:hover,
+        .linkedin a:hover,
+        .github a:hover {
+            color: #64ffda;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.8em;
+            }
+
+            header p {
+                font-size: 1.1em;
+            }
+
+            section {
+                width: 90%;
+            }
+
+            .projects {
+                grid-template-columns: 1fr;
+            }
+
+            .project {
+                width: 100%;
+                max-width: 320px;
+                margin-bottom: 20px;
+            }
+
+            .contact-email, .linkedin, .github {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Luan Monteiro</h1>
+        <p>Analista e Desenvolvedor de Sistemas</p>
+    </header>
+
+    <section>
+        <h2>Minhas Competências Técnicas</h2>
+        <p>Sou especializado em tecnologias e soluções que buscam transformar dados em insights, com experiência no desenvolvimento de sistemas e sites modernos. As minhas principais habilidades incluem:</p>
+        <ul>
+            <li><strong>Python</strong>: Automação, análise de dados e desenvolvimento de soluções baseadas em Python utilizando bibliotecas como Pandas, NumPy e PyAutoGuis.</li>
+            <li><strong>HTML5 & CSS</strong>: Desenvolvimento de websites responsivos e modernos, focando em boas práticas e experiências de usuário intuitivas.</li>
+            <li><strong>C#</strong>: Criação de aplicações robustas e escaláveis utilizando a plataforma .NET, com foco em código limpo e escalabilidade.</li>
+        </ul>
+
+        <p>Além disso, busco compartilhar conhecimento por meio de artigos, tutoriais e projetos de código aberto, para fomentar o aprendizado coletivo dentro da comunidade de desenvolvedores.</p>
+    </section>
+
+    <section>
+        <h2>Projetos</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Escala Visual Analógica de Apetite</h3>
+                <p>Formulário interativo para a área da nutrição, projetado para avaliar o apetite de indivíduos. Desenvolvido com <strong>HTML</strong> e <strong>JavaScript</strong>, a ferramenta é ideal para profissionais da saúde, oferecendo uma interface intuitiva e responsiva.</p>
+                <a href="https://luanmont6.github.io/Escala-Visual-Analogica-de-Apetite/" target="_blank">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Informações para Contato</h2>
+        <div class="contact-email">
+            <p>Email: <a href="mailto:luancop135@gmail.com">luancop135@gmail.com</a></p>
+        </div>
+        <div class="linkedin">
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/luan-monteiro-42628630a/" target="_blank">Luan Monteiro</a></p>
+        </div>
+        <div class="github">
+            <p>GitHub: <a href="https://github.com/LuanMont6" target="_blank">LuanMont6</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Luan Monteiro</p>
+        <p>Portfólio criado com <a href="https://github.com/LuanMont6" target="_blank">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
