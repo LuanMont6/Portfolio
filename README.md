@@ -1,1 +1,1 @@
-Meu portfólio
+"Bem-vindo ao meu portfólio! Aqui compartilho minha jornada como desenvolvedor e analista de dados. Acredito que a tecnologia tem o poder de transformar ideias em soluções inovadoras, e é isso que busco em cada projeto que desenvolvo. Meu objetivo é não apenas aprender e crescer, mas também contribuir para um mundo digital mais eficiente e conectado. Sinta-se à vontade para explorar meu trabalho e entrar em contato para trocar ideias ou iniciar uma nova parceria. Vamos construir o futuro juntos!"
