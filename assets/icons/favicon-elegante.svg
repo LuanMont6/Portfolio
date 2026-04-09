@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="LM elegante">
+  <g fill="none" stroke="#0f2a57" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 18v28h12" stroke-width="3.6" />
+    <path d="M34 46V18l7 11 7-11v28" stroke-width="3.6" />
+  </g>
+</svg>

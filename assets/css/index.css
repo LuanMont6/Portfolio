@@ -1,12 +1,12 @@
 :root {
-  --bg: #eff7fb;
-  --bg-soft: #e8f2f8;
-  --panel: #f9fdff;
-  --panel-2: #eef8ff;
-  --line: #bdd5e6;
-  --line-soft: #d8e8f4;
-  --text: #1d2d3a;
-  --muted: #5f7486;
+  --bg: #e3eef7;
+  --bg-soft: #d8e7f3;
+  --panel: #e4eef6;
+  --panel-2: #d9e6f0;
+  --line: #a9c2d6;
+  --line-soft: #c7dceb;
+  --text: #182938;
+  --muted: #52697c;
   --accent: #2f80ed;
   --accent-2: #34c3b3;
   --accent-3: #3f9ccf;
@@ -30,9 +30,9 @@ html {
 
 body {
   background:
-    radial-gradient(circle at 12% 8%, #d7efff 0%, transparent 36%),
-    radial-gradient(circle at 88% 92%, #d7f6f1 0%, transparent 40%),
-    linear-gradient(180deg, #f7fcff 0%, #eff7fb 100%);
+    radial-gradient(circle at 12% 8%, #bfdff6 0%, transparent 36%),
+    radial-gradient(circle at 88% 92%, #c9ece6 0%, transparent 40%),
+    linear-gradient(180deg, #eef6fc 0%, #e3eef7 100%);
   color: var(--text);
   font-family: var(--body);
   min-height: 100vh;
@@ -100,7 +100,7 @@ body {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(8px);
-  background: rgba(247, 252, 255, 0.86);
+  background: rgba(214, 229, 240, 0.92);
   border-bottom: 1px solid var(--line);
 }
 
@@ -153,15 +153,15 @@ body {
 
 .kicker {
   width: fit-content;
-  border: 1px solid #bfddf2;
+  border: 1px solid #a9cde7;
   border-radius: 999px;
   padding: 0.42rem 0.92rem;
-  color: #296ea5;
+  color: #245f8f;
   font-size: 0.75rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 1.2rem;
-  background: #ebf6ff;
+  background: #cfe4f4;
 }
 
 .hero h1 {
@@ -186,7 +186,7 @@ body {
 }
 
 .signature-card {
-  border: 1px solid #cae1f2;
+  border: 1px solid #b8d0e4;
   border-radius: 16px;
   background:
     linear-gradient(170deg, rgba(47, 128, 237, 0.08), transparent 34%),
@@ -199,7 +199,7 @@ body {
   letter-spacing: 0.01em;
   font-size: 0.82rem;
   margin-bottom: 0.9rem;
-  color: #2c78a8;
+  color: #275f84;
 }
 
 .signature-card ul {
@@ -210,10 +210,10 @@ body {
 
 .signature-card li {
   border: 1px solid var(--line-soft);
-  background: #f3faff;
+  background: #ddeaf4;
   border-radius: 10px;
   padding: 0.58rem 0.62rem;
-  color: #3b5668;
+  color: #324b5c;
   font-size: 0.91rem;
   line-height: 1.45;
 }
@@ -222,7 +222,7 @@ body {
   display: block;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #347fb2;
+  color: #2f6f99;
   font-size: 0.68rem;
   margin-bottom: 0.2rem;
 }
